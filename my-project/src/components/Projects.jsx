@@ -49,12 +49,12 @@ function Project(){
             <div className="mt-20">
                 <Slider {...settings}>
                 {data.map((d)=>(
-                    <div key={d.id} className="mb-8 h-[36rem] w-[50rem] bg-slate-800 text-white rounded-xl" style={{ margin: "0 10px" }}>
-                        <div className="h-5/6 w-full rounded-xl"><img className="rounded-xl" src={d.img}/></div>
-                        {/*<div className="flex flex-col justify-center align-center gap-4 p-4">
-                        <div><h2 className="sm:text-[10px] md:text-lg lg:text-xl font-semibold">{d.skill}</h2></div>
-                        <div><p>{d.description}</p></div>
-                        </div> */}
+                    <div key={d.id} className="mb-8 h-[16rem] w-[50rem] md:h-[46rem] bg-slate-800 text-white rounded-xl" style={{ margin: "0 10px" }}>
+                        <div className="h-5/6 w-full rounded-xl"><img className="rounded-t-xl" src={d.img}/></div>
+                        <div className="relative  flex flex-col justify-center align-center gap-4 p-4">
+                          <div><h2 className="relative bottom-7 text-[10px] md:m-7 md:text-xl lg:text-xl font-semibold">{d.skill}</h2></div>
+                          {/*<div><p className="relative bottom-12 text-xs">{d.description}</p></div>*/}
+                        </div> 
                     </div>
                 ))}
                 </Slider>
