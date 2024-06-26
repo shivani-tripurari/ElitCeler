@@ -23,13 +23,13 @@ const Services=()=>{
               <div className="left">
         <div className="blob"></div>
       </div>
-              <div className="relative z-1 max-w-[27rem] ml-auto">
+              <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-auto">
                 <h2 className={` text-lg font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-4 mb-12 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
-                <p className="absolute top-9 right-7 text-sm pl-0 mb-[3rem] text-gray-400">
+                <p className=" text-sm pl-0 mb-[3rem] text-gray-400">
                 Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
                 </p>
-                <div className='absolute top-[10rem] flex items-center m-auto'>
-                <p className='text-sm font-bold ml-[16rem]'>Know more</p>
+                <div className='absolute top-[14rem] flex items-center m-auto'>
+                <p className='text-sm font-bold ml-[7rem]'>Know more</p>
                 <Arrow/>
                 </div>
               </div>

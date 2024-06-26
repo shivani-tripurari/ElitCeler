@@ -14,7 +14,7 @@ const Landing = () => {
       <div className="grid-bg"><img src={grid}/></div>
       <div className="hidden  md:block bulb-icon"><img src={bulb}/></div>
      
-        <div className="smiley-icon"><img src={smiley}/></div>
+        <div className="hidden smiley-icon"><img src={smiley}/></div>
         <div className="hidden  md:block smiley-text"><h5>600+</h5><p>happy clients !</p></div>
       <div className="hidden  md:block circle"><img src={circleText}/></div>
       <div className="rating-cont">
@@ -24,8 +24,8 @@ const Landing = () => {
       <div className="right">
         <div className="blob"></div>
       </div>
-      <div className="hero-text">
-        <h1 className='text-[44px]  pr-2 pb-7 mb-11 md:text-7xl'><span className='white'>PRODUCTS THAT <br/>BRIDGE TO </span> <span className='orange'>REALITY</span> </h1>
+      <div className="hero-text absolute top-40 right-11 md:top-72 md:right-64 ">
+        <h1 className='text-[44px] pr-2 pb-7 mb-11 md:text-7xl'><span className='white'>PRODUCTS THAT <br/>BRIDGE TO </span> <span className='orange'>REALITY</span> </h1>
         <p>The future belongs to the generation who believes in dreams.<br/>
          We at ElitCeler Tech perform infinite times of continuous processes<br/>
           of improvements to fulfil those dreams.</p>
