@@ -33,15 +33,15 @@ const Footer = () => {
                 <ul className="text-gray-500">
                   <li className="mb-2">About us</li>
                   <li className="mb-2">Partners</li>
-                  <li className="mb-2">Phone number</li>
+                  <li className="mb-2">+91 7075202565</li>
                 </ul>
               </div>
               <div className="col4">
                 <h3 className="text-lg font-bold mb-4">Contact</h3>
                 <ul className="text-gray-500">
-                  <li className="mb-2">Address line 1</li>
-                  <li className="mb-2">Address line 2</li>
-                  <li className="mb-2">Address line 3</li>
+                  <li className="mb-2">T-hub, Phase-2</li>
+                  <li className="mb-2">Hyderabad, Telangana</li>
+                  <li className="mb-2">500081</li>
                 </ul>
               </div>
             </div>
