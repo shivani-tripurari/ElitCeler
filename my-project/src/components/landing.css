@@ -63,6 +63,94 @@
       scale: 1.05;
     }
   }
+
+  .left .blob {
+    z-index: 9;
+    position: absolute;
+    opacity: 0.43;
+    width: 164px;
+    aspect-ratio: 1/1;
+    animation: animate 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+      alternate forwards;
+    filter: blur(60px);
+    background: linear-gradient(
+      47deg,
+      #FD9E18 21%,
+      rgb(241, 140, 8) 47%,
+      #F96F2F 69% 
+    );
+  }
+  
+  @keyframes animate {
+    0% {
+      translate: 40% -25%;
+      border-radius: 50%;
+    }
+    50% {
+      translate: 0% 13%;
+      border-radius: 50%;
+      rotate: 41deg;
+      scale: 1.15;
+    }
+    100% {
+      translate: -45% 39%;
+      border-radius: 60%;
+      rotate: -60deg;
+      scale: 1.05;
+    }
+  }
+
+
+  .sm-right{
+    top:50%;
+    left: 80%;
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    
+}
+
+  .sm-right .blob {
+    z-index: 9;
+    position: absolute;
+    opacity: 0.43;
+    width: 264px;
+    aspect-ratio: 1/1;
+    animation: animate 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+      alternate forwards;
+    filter: blur(60px);
+    background: linear-gradient(
+      47deg,
+      #FD9E18 21%,
+      rgb(241, 140, 8) 47%,
+      #F96F2F 69% 
+    );
+  }
+  
+  @keyframes animate {
+    0% {
+      translate: 40% -25%;
+      border-radius: 50%;
+    }
+    50% {
+      translate: 0% 13%;
+      border-radius: 50%;
+      rotate: 41deg;
+      scale: 1.15;
+    }
+    100% {
+      translate: -45% 39%;
+      border-radius: 60%;
+      rotate: -60deg;
+      scale: 1.05;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hero-text{
+     
+    }
+  }
 .hero-text{
     position: absolute;
     top: 40%;
@@ -84,8 +172,8 @@ h1{
     color: #fff;
 }
 .hero-text p{
-  padding: 10px;
-  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
   color: #ffffffc1;
 }
 .bulb-icon{
