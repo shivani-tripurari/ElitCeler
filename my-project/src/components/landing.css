@@ -213,7 +213,7 @@ h1{
 .circle{
     position: absolute;
     top:21%;
-    right: 4%;
+    right: 2%;
     height: 34%;
     width: 34%;
     transition: transform .4s ease-in-out;
