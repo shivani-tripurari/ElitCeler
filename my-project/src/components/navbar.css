@@ -12,7 +12,7 @@
 .nav-container .logo{
     height: 100%;
     width: 9rem;
-    
+    margin-left: 0px;
 }
 .logo img{
     height: 200%;
