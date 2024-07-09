@@ -41,7 +41,7 @@ nav li{
 nav li:hover{
     color: #f5c24bf9;
 }
-nav button{
+nav .nav-btn{
     
     font-weight: 700;
     height: 3rem;
@@ -51,10 +51,29 @@ nav button{
     transition:0.43s;
     
 }
-nav button:hover{
+nav .nav-btn:hover{
     transform: translateX(17px);
     transform: all ease;
     background-color: transparent;
     color: #da8a18;
     font-weight: 900;
+}
+nav .ham-btn{
+    background-color: transparent;
+    border: none;
+    transition:0.43s;
+    
+}
+.ham-btn :hover{
+   
+    transform: all ease;
+    background-color: transparent;
+}
+.ham-btn img{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+.mobile li{
+    padding: 3px;
 }
