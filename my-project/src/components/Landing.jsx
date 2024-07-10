@@ -14,7 +14,7 @@ const Landing = () => {
       <div className="grid-bg"><img src={grid}/></div>
       <div className="hidden  md:block bulb-icon"><img src={bulb}/></div>
      
-        <div className="hidden smiley-icon"><img src={smiley}/></div>
+        <div className="hidden md:block smiley-icon"><img src={smiley}/></div>
         <div className="hidden  md:block smiley-text"><h5>600+</h5><p>happy clients !</p></div>
       <div className="hidden  md:block circle"><img src={circleText}/></div>
       <div className="rating-cont">
