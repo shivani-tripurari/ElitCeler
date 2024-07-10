@@ -77,3 +77,12 @@ nav .ham-btn{
 .mobile li{
     padding: 3px;
 }
+.mobile{
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: 999;
+    background-color: #0e0f138a;
+    width: 50%;
+    border-radius: 8px;
+}
