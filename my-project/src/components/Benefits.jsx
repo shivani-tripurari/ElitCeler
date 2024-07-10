@@ -17,8 +17,8 @@ const Benefits = () => {
       key={item.id}
     >
       <div className="relative flex flex-col z-2 min-h-[22rem] p-[2.4rem] pointer-events-none bg-gray-900 backdrop-blur border border-gray-800 rounded-2xl">
-        <h5 className="mb-5 text-slate-300">{item.title}</h5>
-        <p className="p-[0.7rem] body-2 mb-6 text-slate-300">{item.text}</p>
+        <h5 className="mb-5 text-xl text-slate-300">{item.title}</h5>
+        <p className="p-[0.7rem]  mb-6 text-slate-300">{item.text}</p>
         <div className="flex items-center mt-auto">
                     <img src={item.iconUrl} width={48} height={48} />
                     <p className="p-2 ml-auto font-code text-xs font-bold uppercase tracking-wider text-n-1">
