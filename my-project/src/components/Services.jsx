@@ -14,7 +14,7 @@ const Services=()=>{
                 <div className='relative z-1 flex items-center h-[26rem] mb-5 p-8 border border-gray-800 bg-gray-900 rounded-3xl overflow-hidden lg: p-20 xl: h-[32rem]'>
                 <div className="absolute top-0 left-0 h-full w-full md:w-3/5 xl:w-auto pointer-events-none">
                 <img
-                  className=" hidden md:w-full md:h-full md:object-cover md:block  md:object-right lg:block"
+                  className=" block md:w-full md:h-full md:object-cover md:block  md:object-right lg:block mt-44 md:mt-0 lg:mt-0 "
                   width={400}
                   height={430}
                   src={elitceler}
@@ -23,7 +23,7 @@ const Services=()=>{
               <div className="left">
         <div className="blob"></div>
       </div>
-              <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-auto">
+              <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-auto mt-0 mb-44 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 ">
                 <h2 className={` text-lg font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-4 mb-12 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
                 <p className=" text-sm pl-0 mb-[3rem] text-gray-400">
                 Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
