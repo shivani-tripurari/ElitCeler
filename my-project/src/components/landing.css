@@ -222,6 +222,15 @@ h1{
     transform: translateY(-1rem)
 }
 
+@media only screen and (max-width: 480px) {
+  .circle {
+      top:17%;
+      left: 47%;
+      height: 60%; /* Adjust the height as needed */
+      width: 60%;  /* Adjust the width as needed */
+  }
+}
+
 .rating{
   position: absolute;
   top: 49%;

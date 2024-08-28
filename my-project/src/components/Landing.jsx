@@ -14,12 +14,12 @@ const Landing = () => {
       <div className="grid-bg"><img src={grid}/></div>
       <div className="block w-14 h-14 md:block md:w-20 md:h-20 lg:w-24 lg:h-24 bulb-icon"><img src={bulb}/></div>
      
-        <div className="block ml-1 mt-32 md:block md:ml-7 md:mt-16 lg:mt-16 smiley-icon"><img src={smiley}/></div>
-        <div className="block pl-9 mt-32 md:block md:mt-16 lg:mt-16 smiley-text"><h5>600+</h5><p>happy clients !</p></div>
+        <div className="block ml-1 mt-40 md:block md:ml-7 md:mt-16 lg:mt-16 smiley-icon"><img src={smiley}/></div>
+        <div className="block pl-9 mt-40 md:block md:mt-16 lg:mt-16 smiley-text"><h5>600+</h5><p>happy clients !</p></div>
       <div className="block ml-7 mb-11 md:block circle"><img src={circleText}/></div>
       <div className="rating-cont">
-        <div className="block mt-44 mr-11 md:block md:mt-12 md:mr-7 lg:mt-8 lg:mr-3 rating"><img src={rating}/></div>
-        <div className="block mt-8 md:block rating-text"><h5>4.7</h5><p>rating</p></div>
+        <div className="hidden mt-44 mr-11 md:block md:mt-12 md:mr-7 lg:mt-8 lg:mr-3 rating"><img src={rating}/></div>
+        <div className="hidden mt-8 md:block rating-text"><h5>4.7</h5><p>rating</p></div>
       </div>
       <div className="right">
         <div className="blob"></div>
