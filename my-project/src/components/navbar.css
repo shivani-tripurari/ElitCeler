@@ -58,7 +58,7 @@ nav .nav-btn:hover{
     color: #da8a18;
     font-weight: 900;
 }
-nav .ham-btn{
+.ham-btn{
     background-color: transparent;
     border: none;
     transition:0.43s;
@@ -67,7 +67,7 @@ nav .ham-btn{
 .ham-btn :hover{
    
     transform: all ease;
-    background-color: transparent;
+   
 }
 .ham-btn img{
     height: 24px;

@@ -1,5 +1,12 @@
 import elitceler from '../assets/ElitCelerFrame.png';
 import Arrow from '../assets/Arrow.jsx';
+import React from '../assets/react.svg';
+import Next from '../assets/nextjs.svg';
+import Node from '../assets/nodejs.svg';
+import Mongo from '../assets/mongodb-original-wordmark.svg';
+import Native from '../assets/react-native-1.svg';
+import Flutter from '../assets/flutter.svg';
+import Figma from '../assets/figma.svg';
 import './styles.css';
 import './landing.css';
 
@@ -12,35 +19,77 @@ const Services=()=>{
             <h2 className={`text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Convert your Dreams to <span className='heading-span'>Reality</span></h2>
             <div className='relative'>
                 <div className='relative z-1 flex items-center h-[26rem] mb-5 p-8 border border-gray-800 bg-gray-900 rounded-3xl overflow-hidden lg: p-20 xl: h-[32rem]'>
-                <div className="absolute top-0 left-0 h-full w-full md:w-3/5 xl:w-auto pointer-events-none">
-                <img
-                  className=" block md:w-full md:h-full md:object-cover md:block  md:object-right lg:block mt-44 md:mt-0 lg:mt-0 "
-                  width={400}
-                  height={430}
-                  src={elitceler}
-                />
-              </div>
-              <div className="left">
-        <div className="blob"></div>
-      </div>
-              <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-auto mt-0 mb-44 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 ">
-                <h2 className={` text-lg font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-4 mb-12 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
-                <p className=" text-sm pl-0 mb-[3rem] text-gray-400">
-                Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
-                </p>
-                <div className='absolute top-[14rem] flex items-center m-auto'>
-                <p className='text-sm font-bold ml-[7rem]'>Know more</p>
-                <Arrow/>
+                    <div className="absolute top-0 left-0 h-full w-full md:w-3/5 xl:w-auto pointer-events-none">
+                      <img
+                        className=" block md:w-full md:h-full md:object-cover md:block  md:object-right lg:block mt-44 md:mt-0 lg:mt-0 "
+                        width={400}
+                        height={430}
+                        src={elitceler}
+                      />
+                    </div>
+                <div className="left">
+                  <div className="blob"></div>
                 </div>
-              </div>
+                <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-11 md:ml-auto lg:ml-auto mt-0 mb-64 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 ">
+                    <h2 className={` text-lg font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-0 md:mx-4 lg:mx-4 mb-12 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
+                    <p className="hidden md:block lg:block text-sm pl-0 mb-[3rem] text-gray-400">
+                    Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
+                    </p>
+                    <div className=' absolute top-[3rem] md:top-[11rem] lg:top-[14rem] flex items-center m-auto'>
+                      <p className='text-xs md:text-sm lg:text-sm font-bold ml-[3rem] mr-0'>Know more</p>
+                      <Arrow/>
+                    </div>
+                </div>
             </div>
+
             <div className="relative z-1 grid gap-5 lg:grid-cols-2">
               {/*card-1, row-2*/}
               <div className="relative min-h-[28rem] overflow-hidden border border-gray-700 rounded-3xl">
                 
                 <div className="absolute inset-0">
-                  
+                    <div className='flex justify-evenly items-center mt-11 md:mt-16 lg:mt-24'>
+                     <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                        
+                        src={Next}
+                      />
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                        
+                        src={React}
+                      /> 
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                        
+                        src={Node}
+                      /> 
+                    </div>
+                    <div className='flex justify-evenly items-center mt-11 md:mt-16 lg:mt-24'>
+                     <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                       
+                        src={Mongo}
+                      />
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                        
+                        src={Native}
+                      /> 
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                        
+                        src={Flutter}
+                      /> 
+                    </div>
+                    <div className='flex justify-center items-center mt-11 md:mt-16 lg:mt-24'>
+                      <img 
+                        className='block h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20'
+                        
+                        src={Figma}
+                      />
+                    </div>
                 </div>
+                
                 <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 
                   <h2 className=" text-base md:text-xl lg:text-2xl font-semibold">Techhnologies used</h2>
@@ -53,7 +102,7 @@ const Services=()=>{
                 
               </div>
 
-              {/*card-2 */}
+              {/*card-2, row-2 */}
 
               <div className="p-4 bg-gray-900 rounded-3xl overflow-hidden lg:min-h-[46rem]">
                 <div className="py-12 px-4 xl:px-8">

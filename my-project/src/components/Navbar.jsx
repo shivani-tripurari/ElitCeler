@@ -6,8 +6,16 @@ import close from '../assets/close.svg';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen,setIsOpen] = useState(false);
+
+  const whatsappNumber = '+917075202565';
+
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const redirectToWhatsApp = () => {
+    const message = "Hello, I'd like to know more about your services!";
+    window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
@@ -23,7 +31,7 @@ const Navbar = () => {
             <li><a href='#projects'>Projects</a></li>
             <li><Link to="/team">Team</Link></li>
             <li><Link to="/blogs">Blogs</Link></li>
-            <li><button className='rounded-full nav-btn'>Contact us</button></li>
+            <li><button onClick={redirectToWhatsApp} className='rounded-full nav-btn'>Contact us</button></li>
            </ul>
           
         </nav>
@@ -34,7 +42,7 @@ const Navbar = () => {
       </div>
 
       <div className='md:hidden'>
-              <button className='ham-btn' onClick={toggleNavbar}><img src={isOpen ? close : hamburger} alt="Menu Icon" /></button>
+              <div className='ham-btn' onClick={toggleNavbar}><img src={isOpen ? close : hamburger} alt="Menu Icon" /></div>
       </div>
       {isOpen && (
       <div className='mobile md:hidden'>
@@ -43,7 +51,7 @@ const Navbar = () => {
       <li><a href='#projects'>Projects</a></li>
       <li><Link to="/team">Team</Link></li>
       <li><Link to="/blogs">Blogs</Link></li>
-      <li><button className='rounded-full nav-btn'>Contact us</button></li>
+      <li><button onClick={redirectToWhatsApp} className='rounded-full nav-btn'>Contact us</button></li>
     </ul>
       </div>
     )}

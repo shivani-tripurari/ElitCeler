@@ -17,6 +17,8 @@ import image13 from '../assets/shaik.jpeg';
 import image14 from '../assets/Priyanshi.jpeg';
 import seo from '../assets/seo.png';
 import webdes from '../assets/webdes.png';
+import blog1 from '../assets/blog1.png';
+import blog2 from '../assets/blog2.png';
 
 
 export const benefits = [
@@ -185,7 +187,7 @@ export const blogs = [
   {
     id:"0",
     title:"Optimize your Website's SEO",
-    imgUrl: seo
+    imgUrl: blog2
 
   },
   {
@@ -196,9 +198,24 @@ export const blogs = [
   {
     id:"0",
     title:"Optimize your Website's SEO",
-    imgUrl: seo
+    imgUrl: blog1
 
-  }
+  },
+  {
+    id:"1",
+    title:"Evolution of Web Design",
+    imgUrl: blog1
+  },
+  {
+    id:"1",
+    title:"Evolution of Web Design",
+    imgUrl: webdes
+  },
+  {
+    id:"1",
+    title:"Evolution of Web Design",
+    imgUrl: seo
+  },
 ];
 
 

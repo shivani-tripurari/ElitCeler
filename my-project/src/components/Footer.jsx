@@ -54,10 +54,17 @@ const Footer = () => {
                 <div className="blobGra"></div>
               </div>
               <div className="icons flex items-center space-x-4">
-                <img src={mail} alt="Icon 1" className="w-6 h-6"/>
-                <img src={linkedin} alt="Icon 2" className="w-6 h-6"/>
-                <img src={mail} alt="Icon 3" className="w-6 h-6"/>
+                  <a href="mailto:your-saikrishna.alishala@elitceler.com" target="_blank" rel="noopener noreferrer">
+                    <img src={mail} alt="Email Icon" className="w-6 h-6"/>
+                  </a>
+                  <a href="https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                    <img src={linkedin} alt="LinkedIn Icon" className="w-6 h-6"/>
+                  </a>
+                  <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
+                    <img src={mail} alt="Instagram Icon" className="w-6 h-6"/>
+                  </a>
               </div>
+
               <p className="text-gray-500 mt-4 md:mt-0">© ElitCeler. All Rights Reserved 2022</p>
             </div>
           </div>
