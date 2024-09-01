@@ -19,7 +19,7 @@ const Landing = () => {
       </div>
 
       
-      <div className="block pl-9 mt-40 md:pl-5 md:left-7 md:mt-16 lg:mt-16 lg:left-26 xl:left-20 md-custom:ml-3 sam-fold:mt-11 sam-fold:left-0 smiley-text">
+      <div className="hidden pl-9 mt-40 md:pl-5 md:block lg:block xl:block md-custom:block sam-fold:block md:left-7 md:mt-16 lg:mt-16 lg:left-26 xl:left-20 md-custom:ml-3 sam-fold:mt-11 sam-fold:left-0 smiley-text">
         <h5 className=''>25+</h5>
         <p className=''>happy clients !</p>
       </div>

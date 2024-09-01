@@ -31,8 +31,8 @@ const Services=()=>{
                   <div className="blob"></div>
                 </div>
                 <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-11 md:ml-auto lg:ml-auto mt-0 mb-64 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 ">
-                    <h2 className={` text-lg mr-6 font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-0 md:mx-4 lg:mx-4 mb-11 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
-                    <p className="block text-[10px] sam-fold:block md:block md:text-sm lg:block lg:text-sm xl:text-[16px] pl-0 mb-[3rem] text-gray-400">
+                    <h2 className={` text-lg mr-7 font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-0 md:mx-4 lg:mx-4 mb-11 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
+                    <p className="block mr-7 text-[10px] sam-fold:block md:block md:text-sm lg:block lg:text-sm xl:text-[16px] pl-0 mb-[3rem] text-gray-400">
                     Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
                     </p>
                    
