@@ -112,7 +112,7 @@ export const teamMembers = [
     id:"5",
     title:"Sandeep Nampally",
     imgUrl: image6,
-    post:"Director/Advisor, UK &EMEA",
+    post:"Director/Advisor",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
@@ -133,6 +133,14 @@ export const teamMembers = [
     mail:"https://buymeacoffee.com/shivaniiii"
   },
   {
+    id:"13",
+    title:"Sharvani",
+    //imgUrl: ,
+    post:"UI/UX designer",
+    linkedin:"https://buymeacoffee.com/shivaniiii",
+    mail:"https://buymeacoffee.com/shivaniiii"
+  },
+  {
     id:"9",
     title:"Yash Sharma",
     //imgUrl: image10,
@@ -148,14 +156,14 @@ export const teamMembers = [
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
-  {
+ /* {
     id:"10",
     title:"Saumya",
     imgUrl: image11,
     post:"Flutter developer Intern",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
-  },
+  }, */
   {
     id:"11",
     title:"Nagateja V",
@@ -171,15 +179,7 @@ export const teamMembers = [
     post:"Fullstack dev freelancer",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
-  },
-  {
-    id:"13",
-    title:"Priyanshi",
-    imgUrl: image14,
-    post:"UI/UX designer freelancer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
-  },
+  }
 ];
 
 

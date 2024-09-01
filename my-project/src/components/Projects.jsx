@@ -3,8 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './styles.css';
 
-function Project(){
-
+function Project() {
     var settings = {
         dots: true,
         infinite: true,
@@ -12,6 +11,9 @@ function Project(){
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
+        arrows: false,  // Disable arrows
+        autoplay: true, // Enable automatic scrolling
+        autoplaySpeed: 3000, // Set speed to 3 seconds (3000 milliseconds)
         responsive: [
           {
             breakpoint: 1024,
@@ -19,7 +21,10 @@ function Project(){
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: true,
+              arrows: false,
+              autoplay: true,
+              autoplaySpeed: 3000
             }
           },
           {
@@ -27,14 +32,20 @@ function Project(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              initialSlide: 1
+              initialSlide: 1,
+              arrows: false,
+              autoplay: true,
+              autoplaySpeed: 3000
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              arrows: false,
+              autoplay: true,
+              autoplaySpeed: 3000
             }
           }
         ]
@@ -42,17 +53,16 @@ function Project(){
 
     return(
         <>
-
         <div className="container relative z-2 mt-[6.69rem]" id="projects">
         <h2 className={`text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Our works and <span className='heading-span'>Projects</span></h2>            
-            <div className="w-3/4 m-auto">
+            <div className="w-full m-auto">
             <div className="mt-20">
                 <Slider {...settings}>
                 {data.map((d)=>(
-                    <div key={d.id} className="mb-8 h-[16rem] w-[50rem] md:h-[46rem] bg-slate-800 text-white rounded-xl" style={{ margin: "0 10px" }}>
-                        <div className="h-5/6 w-full rounded-xl"><img className="rounded-t-xl" src={d.img}/></div>
+                    <div key={d.id} className="mb-8 h-[16rem] w-[50rem] md:h-[46rem] bg-transparent text-white rounded-xl" style={{ margin: "0 10px" }}>
+                        <div className="h-full w-full rounded-xl"><img className="rounded-xl" src={d.img}/></div>
                         <div className="relative  flex flex-col justify-center align-center gap-4 p-4">
-                          <div><h2 className="relative bottom-7 text-[10px] md:m-7 md:text-xl lg:text-xl font-semibold">{d.skill}</h2></div>
+                         {/*<div><h2 className="relative bottom-7 text-[10px] md:m-7 md:text-xl lg:text-xl font-semibold">{d.skill}</h2></div> */} 
                           {/*<div><p className="relative bottom-12 text-xs">{d.description}</p></div>*/}
                         </div> 
                     </div>
@@ -65,8 +75,8 @@ function Project(){
     )
 }
 
-  
 export default Project;
+
 
 
 const data = [

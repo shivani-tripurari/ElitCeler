@@ -8,6 +8,7 @@ const Hero = () => {
     <div className="container hero-container" id="hero">
       <Landing/>
       <Company className="hidden relative z-10 mt-20 lg:block"/>
+      
     </div>
   )
 }

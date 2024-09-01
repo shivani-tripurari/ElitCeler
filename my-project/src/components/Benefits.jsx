@@ -5,7 +5,7 @@ import './landing.css';
 
 const Benefits = () => {
   return (
-    <div className='container relative z-2 mt-[6.69rem]' id="benefits">
+    <div id="benefits" className='container relative z-2 mt-[6.69rem]'>
       <div className="left">
         <div className="blob"></div>
       </div>
@@ -16,15 +16,22 @@ const Benefits = () => {
       className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:w-[calc(30.333%-20px)] shadow-md"
       key={item.id}
     >
-      <div className="relative flex flex-col z-2 min-h-[22rem] p-[2.4rem] pointer-events-none bg-gray-900 backdrop-blur border border-gray-800 rounded-2xl">
+      <div className="relative flex flex-col z-2 min-h-[22rem] p-[2.4rem] bg-gray-900 backdrop-blur border border-gray-800 rounded-2xl">
         <h5 className="mb-5 text-xl text-slate-300">{item.title}</h5>
         <p className="p-[0.7rem]  mb-6 text-slate-300">{item.text}</p>
-        <div className="flex items-center mt-auto">
+        <div className="flex items-center justify-between mt-auto">
                     <img src={item.iconUrl} width={48} height={48} />
-                    <p className="p-2 ml-auto font-code text-xs font-bold uppercase tracking-wider text-n-1">
-                      Know more
-                    </p>
-                    <Arrow />
+                    
+                      
+                    <a href="https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="flex justify-end items-center">
+                      <p className="p-2 ml-auto font-code text-xs font-bold uppercase tracking-wider text-n-1">
+                          Know more
+                      </p>
+                      <Arrow />
+                    </a>
+
+                      
+                    
                   </div>
       </div>
       

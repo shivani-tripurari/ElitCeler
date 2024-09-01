@@ -2,6 +2,7 @@ import './landing.css';
 import './styles.css';
 import elitceler from '../assets/elitceler-logo.svg';
 import mail from "../assets/icons8-mail.png";
+import insta from '../assets/instaLogo.svg';
 import linkedin from "../assets/icons8-linkedin-50.png";
 
 
@@ -24,7 +25,7 @@ const Footer = () => {
                 <h3 className="text-lg font-bold mb-4">Our divisions</h3>
                 <ul className="text-gray-500">
                   <li className="mb-2">Health care</li>
-                  <li className="mb-2">Education</li>
+                  <li className="mb-2">Creative Tech</li>
                   <li className="mb-2">Finance</li>
                 </ul>
               </div>
@@ -54,14 +55,14 @@ const Footer = () => {
                 <div className="blobGra"></div>
               </div>
               <div className="icons flex items-center space-x-4">
-                  <a href="mailto:your-saikrishna.alishala@elitceler.com" target="_blank" rel="noopener noreferrer">
+                  <a href="mailto:saikrishna.alishala@elitceler.com" target="_blank" rel="noopener noreferrer">
                     <img src={mail} alt="Email Icon" className="w-6 h-6"/>
                   </a>
                   <a href="https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="LinkedIn Icon" className="w-6 h-6"/>
                   </a>
                   <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
-                    <img src={mail} alt="Instagram Icon" className="w-6 h-6"/>
+                    <img src={insta} alt="Instagram Icon" className="w-5 h-5"/>
                   </a>
               </div>
 

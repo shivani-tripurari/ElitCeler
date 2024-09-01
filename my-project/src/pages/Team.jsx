@@ -27,7 +27,7 @@ const Team = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:w-[calc(30.333%-20px)] w-full sm:w-[calc(50%-10px)] shadow-md"
               key={item.id}
             >
-              <div className="relative flex flex-col z-2 min-h-[22rem] p-[2.4rem] pointer-events-none bg-gray-900 backdrop-blur border border-gray-800 rounded-2xl">
+              <div className="relative flex flex-col z-2 min-h-[22rem] p-[2.4rem] bg-gray-900 backdrop-blur border border-gray-800 rounded-2xl">
                 <h5 className="z-10 absolute bottom-11 mb-5 text-slate-300 font-bold">
                   {item.title}
                 </h5>
@@ -37,21 +37,25 @@ const Team = () => {
                     className="absolute object-cover top-0 left-0 rounded-2xl z-0 opacity-50 h-full w-full"
                     alt={item.title}
                   />
-                  <p className="absolute bottom-0 body-2 mb-6 text-orange-400 font-medium">
+                  <p className="absolute bottom-0 body-2 mb-6 text-orange-400 font-medium ">
                     {item.post}
                   </p>
-                  <Link to={item.mail}>
-                    <img src={mail} className="absolute right-7" alt="Mail" />
-                  </Link>
-                  <Link to={item.linkedin}>
-                    <img
-                      src={linkedin}
-                      height={24}
-                      width={24}
-                      className="absolute right-14"
-                      alt="LinkedIn"
-                    />
-                  </Link>
+                  <a
+                    href={item.mail}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute right-5 pl-2 pb-0 pointer-events-auto"
+                  >
+                    <img src={mail} alt="Mail" className=" h-7 w-7" />
+                  </a>
+                  <a
+                    href={item.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute right-14 h-7 w-7 pointer-events-auto"
+                  >
+                    <img src={linkedin} alt="LinkedIn" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -63,7 +67,6 @@ const Team = () => {
       </div>
     </>
   );
-  
 }
 
-export default Team
+export default Team;
