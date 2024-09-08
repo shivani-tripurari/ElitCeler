@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 1333.3333 666.66669"
+   height="666.66669"
+   width="1333.3333"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath26"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path24"
+         d="M 0,500 H 1000 V 0 H 0 Z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,666.66667)"
+     id="g10"><text
+       id="text14"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:124.04419708px;font-family:Limerick-DemiBold;-inkscape-font-specification:Limerick-DemiBold;writing-mode:lr-tb;fill:#c08a83;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,334.8076,234.9687)"><tspan
+         id="tspan12"
+         y="0"
+         x="0 85.466454 152.32628 227.12492 257.6398 291.6279 362.20908 436.75961 511.55829 551.7486">HealthKare</tspan></text>
+<text
+       id="text18"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:79.28029633px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,340.3618,131.2617)"><tspan
+         id="tspan16"
+         y="0"
+         x="0 59.301666 118.60333 173.86169 190.27272 234.27328 273.99271 312.20581 330.91599 357.15775 401.15833 439.76782 477.98093 503.11279 541.88086 558.29187 596.505">www.healthkare.ai</tspan></text>
+<g
+       id="g20"><g
+         clip-path="url(#clipPath26)"
+         id="g22"><g
+           transform="translate(41.9149,222.8298)"
+           id="g28"><path
+             id="path30"
+             style="fill:none;stroke:#a30d0d;stroke-width:13;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 h 31.516 c 0.397,0 0.756,0.236 0.914,0.6 l 27.742,64.246 c 0.371,0.859 1.613,0.778 1.87,-0.121 L 90.643,-35.377 c 0.294,-1.031 1.786,-0.931 1.941,0.13 l 39.261,269.011 c 0.173,1.187 1.911,1.109 1.978,-0.089 l 23.564,-427.252 c 0.064,-1.156 1.716,-1.29 1.965,-0.16 L 205.835,16.96 c 0.23,1.041 1.714,1.041 1.943,0 l 12.029,-54.733 c 0.218,-0.991 1.606,-1.058 1.918,-0.092 l 30.17,93.383 c 0.289,0.894 1.543,0.926 1.877,0.047 l 27.857,-73.307 c 0.146,-0.386 0.516,-0.641 0.93,-0.641 h 626.557" /></g></g></g></g></svg>
