@@ -36,6 +36,7 @@ function Project() {
           {
             breakpoint: 600,
             settings: {
+              dots: true,
               slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 1,
@@ -47,6 +48,7 @@ function Project() {
           {
             breakpoint: 480,
             settings: {
+              dots: true,
               slidesToShow: 1,
               slidesToScroll: 1,
               arrows: false,
@@ -66,11 +68,13 @@ function Project() {
                 <Slider {...settings}>
                 {data.map((d)=>(
                     <div key={d.id} className="mb-8 h-[16rem] w-[50rem] md:h-[46rem] bg-transparent text-white rounded-xl" style={{ margin: "0 10px" }}>
+                      <a href={d.path}>
                         <div className="h-full w-full rounded-xl"><img className="rounded-xl" src={d.img}/></div>
                         <div className="relative  flex flex-col justify-center align-center gap-4 p-4">
                          {/*<div><h2 className="relative bottom-7 text-[10px] md:m-7 md:text-xl lg:text-xl font-semibold">{d.skill}</h2></div> */} 
                           {/*<div><p className="relative bottom-12 text-xs">{d.description}</p></div>*/}
-                        </div> 
+                        </div>
+                      </a> 
                     </div>
                 ))}
                 </Slider>
@@ -88,37 +92,37 @@ export default Project;
 const data = [
     {
         id:0,
-        skill: "Front-end development",
+        // skill: "Front-end development",
         img: s1,
-        description: "I code beautiful web experiences and have a good grip over various front-end technologies",
-        path:"/FrontendWork"
+        // description: "I code beautiful web experiences and have a good grip over various front-end technologies",
+        path:"https://pvinteriors.netlify.app/"
     }, 
     {
         id:1,
-        skill: "Open-source contribution",
+        // skill: "Open-source contribution",
         img:s2,
-        description: "I contributed to various open source projects",
-        path:"https://github.com/shivani-tripurari"
+        // description: "I contributed to various open source projects",
+        path:"https://www.healthkare.ai/"
     },
     {
         id:2,
-        skill: "Freelancing",
+        // skill: "Freelancing",
         img: s3,
-        description: "Worked on some freelance projects related to front-end and fullstack development",
-        path:"https://www.linkedin.com/in/shivani-tripurari-a7962621b/"
+        // description: "Worked on some freelance projects related to front-end and fullstack development",
+        path:"https://wholesale-express.vercel.app/"
     },
     {
         id:3,
-        skill: "UI/UX designing",
+        // skill: "UI/UX designing",
         img: s4,
-        description: "I have a good understanding of designing principles ",
-        path:"/UiWork"
+        // description: "I have a good understanding of designing principles ",
+        path:"https://hairrty.netlify.app/"
     },
     {
       id:4,
-      skill: "UI/UX designing",
+      // skill: "UI/UX designing",
       img: s5,
-      description: "I have a good understanding of designing principles ",
-      path:"/UiWork"
+      // description: "I have a good understanding of designing principles ",
+      path:"https://kalative.in/"
   }
 ];

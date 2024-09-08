@@ -19,10 +19,10 @@ const Team = () => {
         <div className="left">
           <div className="blob"></div>
         </div>
-        <h2 className="text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
+        <h2 className="text-[24px] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
           Get to know our <span className="heading-span">Team</span>
         </h2>
-        <div className="flex flex-wrap gap-10 mb-10 justify-center">
+        <div className="flex flex-wrap gap-10 justify-center">
           {teamMembers.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:w-[calc(30.333%-20px)] w-full sm:w-[calc(50%-10px)] shadow-md"
