@@ -10,6 +10,7 @@ export default {
       screens: {
         'sam-fold':'608px',
         'md-custom': '700px' ,
+        'tab':'768px',
         'laptop': '1300px'// Another example
       },
     },
