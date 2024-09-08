@@ -79,3 +79,24 @@ h3{
           #F96F2F 69% 
         );
 }
+
+#blogs{
+    height: 100vh;
+}
+#teams{
+    height: 100vh;
+}
+
+.customSlider .slick-dots li button:before {
+   
+    color: #a3a1a1b7; /* Custom dot color */
+    opacity: 1; /* Makes the color more visible */
+  }
+  
+  .customSlider .slick-dots li.slick-active button:before {
+    color: #fff; /* Color of the active dot */
+  }
+.customSlider .slick-dots{
+    position: absolute;
+    bottom: 21%;
+}

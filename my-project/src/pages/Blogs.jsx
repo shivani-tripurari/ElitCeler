@@ -3,7 +3,8 @@ import '../components/styles.css';
 import '../components/landing.css';
 import logo from '../assets/elitceler-logo.svg';
 import { Link } from 'react-router-dom';
-
+import Footer from "../components/Footer";
+import '../components/styles.css';
 
 const Blogs = () => {
   return (
@@ -14,11 +15,11 @@ const Blogs = () => {
       </Link>
     </div>
 
-    <div className="container relative z-2 mt-[6.69rem]" id="benefits">
+    <div className="container relative z-2 mt-[6.69rem]" id="blogs">
       <div className="left">
         <div className="blob"></div>
       </div>
-      <h2 className="text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
+      <h2 className="text-sm font-semibold ml-[3rem] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
         Read our blogs and get <span className="heading-span">Inspired</span>
       </h2>
       <div className="flex flex-wrap gap-10 mb-10 justify-center">
@@ -49,6 +50,7 @@ const Blogs = () => {
       <div className="sm-right">
         <div className="blob"></div>
       </div>
+      <Footer/>
     </div>
   </>
 );

@@ -7,7 +7,9 @@ import s2 from "../assets/s2.png";
 import s3 from "../assets/s3.png";
 import s4 from "../assets/s4.png";
 import s5 from "../assets/s5.png";
-
+import s6 from "../assets/s6.png";
+import s7 from "../assets/s7.png";
+import s8 from "../assets/s8.png";
 function Project() {
     var settings = {
         dots: true,
@@ -27,7 +29,8 @@ function Project() {
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true,
+              
+              swipeToSlide: true,
               arrows: false,
               autoplay: true,
               autoplaySpeed: 3000
@@ -36,7 +39,7 @@ function Project() {
           {
             breakpoint: 600,
             settings: {
-              dots: true,
+             
               slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 1,
@@ -48,7 +51,7 @@ function Project() {
           {
             breakpoint: 480,
             settings: {
-              dots: true,
+             
               slidesToShow: 1,
               slidesToScroll: 1,
               arrows: false,
@@ -62,12 +65,12 @@ function Project() {
     return(
         <>
         <div className="container relative z-2 mt-[6.69rem]" id="projects">
-        <h2 className={`text-[24px] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Our works and <span className='heading-span'>Projects</span></h2>            
+        <h2 className={`text-[24px]  font-semibold md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] lg:ml-[-3rem] mb-12 lg:mb-20`}>Our works and <span className='heading-span'>Projects</span></h2>            
             <div className="w-full m-auto">
             <div className="mt-20">
-                <Slider {...settings}>
+                <Slider {...settings} className="customSlider">
                 {data.map((d)=>(
-                    <div key={d.id} className="mb-8 h-[16rem] w-[50rem] md:h-[46rem] bg-transparent text-white rounded-xl" style={{ margin: "0 10px" }}>
+                    <div key={d.id} className="mb-3 lg:mb-0 h-[16rem] w-[50rem] md:h-[52rem] lg:h-[52rem] md-custom:h-[28rem] bg-transparent text-white rounded-xl" style={{ margin: "0 10px" }}>
                       <a href={d.path}>
                         <div className="h-full w-full rounded-xl"><img className="rounded-xl" src={d.img}/></div>
                         <div className="relative  flex flex-col justify-center align-center gap-4 p-4">
@@ -124,5 +127,26 @@ const data = [
       img: s5,
       // description: "I have a good understanding of designing principles ",
       path:"https://kalative.in/"
-  }
+  },
+  {
+    id:5,
+    // skill: "Freelancing",
+    img: s6,
+    // description: "Worked on some freelance projects related to front-end and fullstack development",
+    path:"https://jamme.app/"
+},
+{
+    id:6,
+    // skill: "UI/UX designing",
+    img: s7,
+    // description: "I have a good understanding of designing principles ",
+    path:"https://mahdev.dev/"
+},
+{
+  id:7,
+  // skill: "UI/UX designing",
+  img: s8,
+  // description: "I have a good understanding of designing principles ",
+  path:"https://www.18startup.com/"
+}
 ];

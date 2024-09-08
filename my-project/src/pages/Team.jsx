@@ -6,7 +6,7 @@ import linkedin from "../assets/icons8-linkedin-50.png";
 import logo from '../assets/elitceler-logo.svg';
 import { Link } from 'react-router-dom';
 import Footer from "../components/Footer";
-
+import '../components/styles.css';
 const Team = () => {
   return (
     <>
@@ -15,11 +15,11 @@ const Team = () => {
           <img src={logo} alt="Logo" />
         </Link>
       </div>
-      <div className="container relative z-2 mt-[6.69rem] mb-0" id="benefits">
+      <div className="container relative z-2 mt-[6.69rem] mb-0" id="teams">
         <div className="left">
           <div className="blob"></div>
         </div>
-        <h2 className="text-[24px] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
+        <h2 className="text-[24px] font-semibold md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] lg:ml-[-3rem] mb-12 lg:mb-20">
           Get to know our <span className="heading-span">Team</span>
         </h2>
         <div className="flex flex-wrap gap-10 justify-center">
@@ -65,8 +65,9 @@ const Team = () => {
         <div className="sm-right">
           <div className="blob"></div>
         </div>
+        <Footer />
       </div>
-      <Footer />
+      
     </>
   );
 }

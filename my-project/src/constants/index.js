@@ -4,7 +4,7 @@ import benefits3 from '../assets/icon-3.svg';
 import benefits4 from '../assets/icon-4.svg';
 import image1 from '../assets/saiKrishna.jpg';
 import image2 from '../assets/navyaSri.jpg';
-import image3 from '../assets/navyaSri.jpg';
+import image3 from '../assets/tejo.jpeg';
 import image4 from '../assets/rPradeep.jpeg';
 import image6 from '../assets/Sandeep.png';
 import image7 from '../assets/navyaSri.jpg';
@@ -73,72 +73,72 @@ export const teamMembers = [
     title:"Sai Krishna Alishala",
     imgUrl: image1,
     post:"Founder & CEO",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"1",
     title:"Navya Sri Alishala",
     imgUrl: image2,
     post:"Co-Founder",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"2",
     title:"Tejovanth K",
-    //imgUrl: image3,
+    imgUrl: image3,
     post:"Director  & CPO",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"3",
     title:"R Pradeep",
     imgUrl: image4,
     post:"Director/Advisor",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"4",
     title:"Amrutha M",
     //imgUrl: image5,
     post:"Director",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"5",
     title:"Sandeep Nampally",
     imgUrl: image6,
     post:"Director/Advisor",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"6",
     title:"Aayush Sharma",
     //imgUrl: image7,
     post:"Full Stack Developer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"8",
     title:"Aaditya J",
     //imgUrl: image8,
     post:"Flutter Developer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"13",
     title:"Sharvani",
     //imgUrl: ,
     post:"UI/UX designer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   // {
   //   id:"9",
@@ -169,16 +169,16 @@ export const teamMembers = [
     title:"Nagateja V",
     //imgUrl: image12,
     post:"Frontend freelancer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   {
     id:"12",
     title:"Shakir Farhan",
     imgUrl: image13,
     post:"Fullstack freelancer",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
+    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   }
 ];
 

@@ -27,7 +27,7 @@ const Landing = () => {
       <div className="block ml-7 mb-11 md:ml-4 circle">
         <img src={circleText} alt="Circle text" />
       </div>
-      <div className="rating-cont">
+      {/* <div className="rating-cont">
         <div className="hidden mt-4 mr-11 md:block md:mt-8 md:mr-4 lg:mt-8 lg:mr-3 rating md-custom:mt-44">
           <img src={rating} alt="Rating" />
         </div>
@@ -35,7 +35,7 @@ const Landing = () => {
           <h5>4.7</h5>
           <p>rating</p>
         </div>
-      </div>
+      </div> */}
       <div className="right">
         <div className="blob"></div>
       </div>
@@ -59,7 +59,7 @@ const Landing = () => {
           <span className='white'>PRODUCTS THAT <br />BRIDGE TO </span>
           <span className='orange'>REALITY</span>
         </h1>
-        <div className='block absolute left-[7%] md:top[31%] md:left-[1%] md:block lg:hidden'>
+        <div className='block absolute left-[7%] md:top[31%] md:left-[1%] md:block md-custom:left-[25%] lg:hidden'>
         <p className='block text-sm mb-7 lg:hidden md:block '>
           We at ElitCeler turn your dreams into reality
         </p>

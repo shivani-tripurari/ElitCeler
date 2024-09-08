@@ -44,7 +44,7 @@ const Footer = () => {
                 <ul className="text-gray-500">
                   <li className="mb-2">About us</li>
                   <li className="mb-2">Partners</li>
-                  <li className="mb-2">+91 7075202565</li>
+                  {/* <li className="mb-2">+91 7075202565</li> */}
                 </ul>
               </div>
               <div className="col4">
