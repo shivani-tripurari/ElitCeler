@@ -1,5 +1,5 @@
 //import Navbar from "./Navbar.jsx";
-import Company from './Company.jsx';
+//import Company from './Company.jsx';
 
 import Landing from './Landing.jsx';
 import './styles.css';
