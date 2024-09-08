@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="container hero-container" id="hero">
       <Landing/>
-      <Company className="block relative z-10 mt-20 lg:block"/>
+      {/* <Company className="block relative z-10 mt-20 lg:block"/> */}
 
       
     </div>

@@ -9,7 +9,7 @@ const Benefits = () => {
       <div className="left">
         <div className="blob"></div>
       </div>
-      <h2 className={`text-[24px] font-semibold md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] ml-[3rem] mb-12 lg:mb-20`}>Start your journey with <span className='heading-span'>ElitCeler</span></h2>
+      <h2 className={`text-[24px] font-semibold md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] ml-[0rem] lg:ml-[3rem] mb-12 lg:mb-20`}>Start your journey with <span className='heading-span'>ElitCeler</span></h2>
       <div className="flex flex-wrap gap-10 mb-10 justify-center">
   {benefits.map((item) => (
     <div

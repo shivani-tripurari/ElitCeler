@@ -10,6 +10,8 @@ import s5 from "../assets/s5.png";
 import s6 from "../assets/s6.png";
 import s7 from "../assets/s7.png";
 import s8 from "../assets/s8.png";
+import s9 from "../assets/s9.png";
+import s10 from "../assets/s10.png";
 function Project() {
     var settings = {
         dots: true,
@@ -107,20 +109,13 @@ const data = [
         // description: "I contributed to various open source projects",
         path:"https://www.healthkare.ai/"
     },
-    {
-        id:2,
-        // skill: "Freelancing",
-        img: s3,
-        // description: "Worked on some freelance projects related to front-end and fullstack development",
-        path:"https://wholesale-express.vercel.app/"
-    },
-    {
-        id:3,
-        // skill: "UI/UX designing",
-        img: s4,
-        // description: "I have a good understanding of designing principles ",
-        path:"https://hairrty.netlify.app/"
-    },
+    // {
+    //     id:2,
+    //     // skill: "Freelancing",
+    //     img: s3,
+    //     // description: "Worked on some freelance projects related to front-end and fullstack development",
+    //     path:"https://wholesale-express.vercel.app/"
+    // },
     {
       id:4,
       // skill: "UI/UX designing",
@@ -129,11 +124,19 @@ const data = [
       path:"https://kalative.in/"
   },
   {
-    id:5,
-    // skill: "Freelancing",
-    img: s6,
-    // description: "Worked on some freelance projects related to front-end and fullstack development",
-    path:"https://jamme.app/"
+    id:9,
+    // skill: "UI/UX designing",
+    img: s9,
+    // description: "I have a good understanding of designing principles ",
+    path:"https://voiaxis.com/"
+},
+
+{
+  id:10,
+  // skill: "UI/UX designing",
+  img: s10,
+  // description: "I have a good understanding of designing principles ",
+  path:"https://www.aryamunivar.com/"
 },
 {
     id:6,
@@ -143,10 +146,24 @@ const data = [
     path:"https://mahdev.dev/"
 },
 {
+  id:5,
+  // skill: "Freelancing",
+  img: s6,
+  // description: "Worked on some freelance projects related to front-end and fullstack development",
+  path:"https://jamme.app/"
+},
+{
   id:7,
   // skill: "UI/UX designing",
   img: s8,
   // description: "I have a good understanding of designing principles ",
   path:"https://www.18startup.com/"
-}
+},
+{
+  id:3,
+  // skill: "UI/UX designing",
+  img: s4,
+  // description: "I have a good understanding of designing principles ",
+  path:"https://hairrty.netlify.app/"
+},
 ];

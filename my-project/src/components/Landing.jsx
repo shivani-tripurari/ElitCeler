@@ -55,11 +55,11 @@ const Landing = () => {
         <Button />
       </div> */}
       <div className="hero-text relative top-[27%] lg:top-[30%] lg:left-[0%] left-1 md:top-[27%] md:left-[25%] left-1">
-        <h1 className='text-[36px] ml-[5rem] w-1/2 mt-4 pr-2 mr-1 pb-7 mb-4 md:w-1/2 md:text-4xl lg:w-[100%] lg:text-[68px] lg:leading-[64px] md-custom:text-5xl md-custom:w-[100%] md-custom:ml-0 md-custom:mt-20'>
+        <h1 className='text-[36px] ml-[5rem] w-1/2 mt-4 pr-2 mr-1 pb-7 mb-4 md:w-1/2 md:text-4xl lg:w-[100%] lg:text-[68px] lg:leading-[64px] md-custom:text-5xl md-custom:w-[100%] md-custom:ml-2 md-custom:mt-20'>
           <span className='white'>PRODUCTS THAT <br />BRIDGE TO </span>
           <span className='orange'>REALITY</span>
         </h1>
-        <div className='block absolute left-[7%] md:top[31%] md:left-[1%] md:block md-custom:left-[25%] lg:hidden'>
+        <div className='block absolute left-[7%] md:top[31%] md:left-[1%] md:block md-custom:left-[27%] lg:hidden'>
         <p className='block text-sm mb-7 lg:hidden md:block '>
           We at ElitCeler turn your dreams into reality
         </p>

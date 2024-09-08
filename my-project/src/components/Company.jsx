@@ -11,7 +11,7 @@ import PV from "../assets/PV.svg";
 const Company = ({className}) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-gray-600">Helping companies create beautiful experiences </h5>
+      <h5 className="text-sm lg:text-lg ml-11 font-bold mb-6 text-left text-gray-200">Our Partners </h5>
       <div className="flex flex-col">
           <div>
           <ul className="flex items-center justify-center flex-1 h-[7.5rem] m-2">

@@ -19,7 +19,7 @@ const Blogs = () => {
       <div className="left">
         <div className="blob"></div>
       </div>
-      <h2 className="text-sm font-semibold ml-[3rem] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mb-12 lg:mb-20">
+      <h2 className="text-[24px] font-semibold ml-[3rem] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] ml-0 mb-12 lg:mb-20">
         Read our blogs and get <span className="heading-span">Inspired</span>
       </h2>
       <div className="flex flex-wrap gap-10 mb-10 justify-center">
