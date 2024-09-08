@@ -55,7 +55,7 @@ const Landing = () => {
         <Button />
       </div> */}
       <div className="hero-text relative top-[27%] lg:top-[33%] left-1 md:top-[37%] left-1">
-        <h1 className='text-[36px] ml-[6rem] w-1/2 mt-4 pr-2 mr-1 pb-7 mb-4 md:w-1 md:text-9xl lg:w-[100%] lg:text-[68px] md-custom:text-5xl md-custom:w-[100%] md-custom:ml-0 md-custom:mt-20'>
+        <h1 className='text-[36px] ml-[5rem] w-1/2 mt-4 pr-2 mr-1 pb-7 mb-4 md:w-1 md:text-9xl lg:w-[100%] lg:text-[68px] md-custom:text-5xl md-custom:w-[100%] md-custom:ml-0 md-custom:mt-20'>
           <span className='white'>PRODUCTS THAT <br />BRIDGE TO </span>
           <span className='orange'>REALITY</span>
         </h1>
