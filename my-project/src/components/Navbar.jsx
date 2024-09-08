@@ -45,7 +45,7 @@ const Navbar = () => {
               <div className='ham-btn' onClick={toggleNavbar}><img src={isOpen ? close : hamburger} alt="Menu Icon" /></div>
       </div>
       {isOpen && (
-      <div className='mobile md:hidden'>
+      <div className='mobile md:hidden '>
       <ul className='flex flex-col basis-full items-center'>
       <li><a href='#services'>About</a></li>
       <li><a href='#projects'>Projects</a></li>

@@ -25,14 +25,14 @@ export const benefits = [
   {
     id: "0",
     title: "Solutions",
-    text: "We provide Extensive & Integrative Effective Unit Making",
+    text: "We provide Extensive & Integrative Effective Unit Making and delivery",
     iconUrl: benefits1,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "1",
     title: "Networking",
-    text: "We help people to grow together and expand their network",
+    text: "We help people to grow together and expand their network and connections",
     iconUrl: benefits2,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     
@@ -40,28 +40,28 @@ export const benefits = [
   {
     id: "2",
     title: "Delivery",
-    text: "Our team ensures delivery of the services with effective scalability",
+    text: "Our team ensures the delivery of the services with effective scalability",
     iconUrl: benefits3,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "3",
     title: "Satisfaction",
-    text: "Lets users grow their businesses and cause user satisfaction",
+    text: "Lets users grow their businesses and cause user satisfaction, engagement",
     iconUrl: benefits4,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "4",
     title: "User friendly",
-    text: "We provide a seamless user experience and help businesses grow",
+    text: "We provide a seamless user experience and help businesses grow, expand",
     iconUrl: benefits1,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: "5",
     title: "Tech expertise",
-    text: "We at Elitceler are equipped with diverse range of technologies to provide top results",
+    text: "We are equipped with diverse range of technologies to provide top results",
     iconUrl: benefits2,
     imgUrl:"https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -96,7 +96,7 @@ export const teamMembers = [
     id:"3",
     title:"R Pradeep",
     imgUrl: image4,
-    post:"Advisory Board & Director",
+    post:"Director/Advisor",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
@@ -125,7 +125,7 @@ export const teamMembers = [
     mail:"https://buymeacoffee.com/shivaniiii"
   },
   {
-    id:"7",
+    id:"8",
     title:"Aaditya J",
     //imgUrl: image8,
     post:"Flutter Developer",
@@ -140,19 +140,19 @@ export const teamMembers = [
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
+  // {
+  //   id:"9",
+  //   title:"Yash Sharma",
+  //   //imgUrl: image10,
+  //   post:"Flutter developer Intern",
+  //   linkedin:"https://buymeacoffee.com/shivaniiii",
+  //   mail:"https://buymeacoffee.com/shivaniiii"
+  // },
   {
-    id:"9",
-    title:"Yash Sharma",
-    //imgUrl: image10,
-    post:"Flutter developer Intern",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
-  },
-  {
-    id:"8",
+    id:"7",
     title:"Tripurari Shivani",
     imgUrl: image9,
-    post:"Frontend, UI/UX Intern",
+    post:"Frontend, UX Intern",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
@@ -168,7 +168,7 @@ export const teamMembers = [
     id:"11",
     title:"Nagateja V",
     //imgUrl: image12,
-    post:"Frontend dev freelancer",
+    post:"Frontend freelancer",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   },
@@ -176,7 +176,7 @@ export const teamMembers = [
     id:"12",
     title:"Shakir Farhan",
     imgUrl: image13,
-    post:"Fullstack dev freelancer",
+    post:"Fullstack freelancer",
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   }

@@ -4,10 +4,20 @@ import elitceler from '../assets/elitceler-logo.svg';
 import mail from "../assets/icons8-mail.png";
 import insta from '../assets/instaLogo.svg';
 import linkedin from "../assets/icons8-linkedin-50.png";
+import whatsapp from "../assets/whatsapp.svg";
 
 
 const Footer = () => {
+  const whatsappNumber = '+917075202565';
+  const redirectToWhatsApp = () => {
+    const message = "Hello, I'd like to know more about your services!";
+    window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+  };
+
     return (
+      
+
+
         <>
           <div className='container mx-auto relative z-2 mt-[6.69rem] p-4'>
             <div className='footer-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
@@ -64,6 +74,11 @@ const Footer = () => {
                   <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
                     <img src={insta} alt="Instagram Icon" className="w-5 h-5"/>
                   </a>
+                  <button onClick={redirectToWhatsApp} className='rounded-full nav-btn'>
+                    <img src={whatsapp} alt="Instagram Icon" className="w-5 h-5"/>
+                  </button>
+                    
+                  
               </div>
 
               <p className="text-gray-500 mt-4 md:mt-0">© ElitCeler. All Rights Reserved 2022</p>

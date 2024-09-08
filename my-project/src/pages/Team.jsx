@@ -5,6 +5,7 @@ import mail from "../assets/icons8-mail.png";
 import linkedin from "../assets/icons8-linkedin-50.png";
 import logo from '../assets/elitceler-logo.svg';
 import { Link } from 'react-router-dom';
+import Footer from "../components/Footer";
 
 const Team = () => {
   return (
@@ -14,7 +15,7 @@ const Team = () => {
           <img src={logo} alt="Logo" />
         </Link>
       </div>
-      <div className="container relative z-2 mt-[3.69rem]" id="benefits">
+      <div className="container relative z-2 mt-[6.69rem] mb-0" id="benefits">
         <div className="left">
           <div className="blob"></div>
         </div>
@@ -65,6 +66,7 @@ const Team = () => {
           <div className="blob"></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

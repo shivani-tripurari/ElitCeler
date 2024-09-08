@@ -4,9 +4,11 @@ import React from '../assets/react.svg';
 import Next from '../assets/nextjs.svg';
 import Node from '../assets/nodejs.svg';
 import Mongo from '../assets/mongodb-original-wordmark.svg';
-import Native from '../assets/react-native-1.svg';
 import Flutter from '../assets/flutter.svg';
 import Figma from '../assets/figma.svg';
+import HTML from '../assets/html-5-svgrepo-com.svg';
+import CSS from '../assets/css-svgrepo-com.svg';
+import Postgres from '../assets/postgresql-svgrepo-com.svg';
 import './styles.css';
 import './landing.css';
 
@@ -16,7 +18,7 @@ const Services=()=>{
     return(
         <>
             <div className='container relative z-2 mt-[6.69rem]' id="services">
-            <h2 className={`text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Convert your Dreams to <span className='heading-span'>Reality</span></h2>
+            <h2 className={`text-[24px] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Convert your Dreams to <span className='heading-span'>Reality</span></h2>
             <div className='relative'>
                 <div className='relative z-1 flex items-center h-[26rem] mb-5 p-8 border border-gray-800 bg-gray-900 rounded-3xl overflow-hidden lg: p-20 xl: h-[32rem]'>
                     <div className="absolute top-0 left-0 h-full w-full md:w-3/5 xl:w-auto pointer-events-none">
@@ -31,10 +33,11 @@ const Services=()=>{
                   <div className="blob"></div>
                 </div>
                 <div className="flex justify-center flex-col items-center relative z-1 max-w-[27rem] ml-11 md:ml-auto lg:ml-auto mt-0 mb-64 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 ">
-                    <h2 className={` text-lg mr-7 font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mx-0 md:mx-4 lg:mx-4 mb-11 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler ?</span> </h2>
-                    <p className="block mr-7 text-[10px] sam-fold:block md:block md:text-sm lg:block lg:text-sm xl:text-[16px] pl-0 mb-[3rem] text-gray-400">
-                    Talking on a technical basis, we are well versed with the latest technologies for optimized products. We support the creation of high-performance products with industry-specific solutions.
+                    <h2 className={`pt-7 text-lg mr-7 font-semibold md:max-w-sm md:text-[28px] md:leading-2 lg:max-w-2xl lg:text-[36px] lg:leading-3 max-w-[50rem] mr-11  md:mx-4 lg:mx-4 mb-1 lg:mb-20`}>Why trust <span className='heading-span'>ElitCeler</span> </h2>
+                    <p className="text-sm mb-[3rem] text-gray-400">
+                       We support the creation of high-performance products with industry-specific solutions.
                     </p>
+                    
                    
                 </div>
             </div>
@@ -70,7 +73,7 @@ const Services=()=>{
                       <img
                         className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
                         
-                        src={Native}
+                        src={Postgres}
                       /> 
                       <img
                         className=" block h-12 w-12 md:h-20 md:w-20 lg:h-24 lg:w-24"
@@ -78,12 +81,22 @@ const Services=()=>{
                         src={Flutter}
                       /> 
                     </div>
-                    <div className='flex justify-center items-center mt-11 md:mt-16 lg:mt-24'>
-                      <img 
-                        className='block h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20'
+                    <div className='flex justify-evenly items-center mt-11 md:mt-14 lg:mt-24'>
+                     <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20"
+                       
+                        src={HTML}
+                      />
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20"
+                        
+                        src={CSS}
+                      /> 
+                      <img
+                        className=" block h-12 w-12 md:h-20 md:w-20 lg:h-20 lg:w-20"
                         
                         src={Figma}
-                      />
+                      /> 
                     </div>
                 </div>
                 

@@ -1,19 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.glass-overlay{
-    
-    height: 90vh;
-    width: 90%;
-    position: relative;
-    left: 0%;
-    border-radius: 1.7rem;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.7px);
-    -webkit-backdrop-filter: blur(4.7px);
-    border: 0.43px solid rgba(255, 255, 255, 0.06);
+.glass-overlay {
+  height: 90vh;
+  width: 90%;
+  position: relative;
+  left: 0%;
+  border-radius: 1.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 0.43px solid rgba(255, 255, 255, 0.06);
 }
+
+/* Small devices (sm) */
+@media only screen and (min-width: 640px) and (max-width: 819px) {
+.glass-overlay {
+  height: 70vh;
+}
+}
+
+/* Medium devices (md) */
+@media only screen and (min-width: 820px) and (max-width: 1023px) {
+.glass-overlay {
+  height: 50vh;
+}
+}
+
+/* Large devices (lg) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+.glass-overlay {
+  height: 90vh;
+}
+}
+
+/* Extra large devices (xl) */
+@media only screen and (min-width: 1280px) {
+.glass-overlay {
+  height: 90vh;
+}
+}
+
+/* .glass-overlay-medium{
+    
+  height: 50vh;
+  width: 90%;
+  position: relative;
+  left: 0%;
+  border-radius: 1.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 0.43px solid rgba(255, 255, 255, 0.06);
+} */
+/* @media only screen and (min-width: 820px) {
+  .glass-overlay{
+    height: 50vh;
+  }
+} */
+
+
+
 .grid-bg{
     height: 40%;
     width: 43%;
@@ -147,15 +197,11 @@
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    .hero-text{
-     
-    }
-  }
+
 .hero-text{
-    position: absolute;
+    /* position: absolute;
     top: 40%;
-    left: 21%;
+    left: 21%; */
 }
 .hero-text .white{
     font-weight: bolder;
@@ -163,6 +209,12 @@
 .hero-text .orange{
     color: #FD9E18;
     font-weight: bolder;
+}
+@media only screen and (min-width: 768px) {
+  .hero-text{
+   
+
+  }
 }
 h1{
     word-spacing: 4px;
@@ -224,11 +276,24 @@ h1{
 
 @media only screen and (max-width: 480px) {
   .circle {
-      top:17%;
-      left: 49%;
+      top:52%;
+      left: 40%;
       height: 60%; /* Adjust the height as needed */
       width: 60%;  /* Adjust the width as needed */
   }
+  .bulb-icon {
+    top:27%;
+    left: 4%;
+    height: 60%; /* Adjust the height as needed */
+    width: 60%;  /* Adjust the width as needed */
+}
+.rating{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 41%;
+  height: 37%;
+}
 }
 
 

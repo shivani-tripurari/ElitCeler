@@ -2,10 +2,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './styles.css';
+import s1 from "../assets/s1.png";
+import s2 from "../assets/s2.png";
+import s3 from "../assets/s3.png";
+import s4 from "../assets/s4.png";
+import s5 from "../assets/s5.png";
 
 function Project() {
     var settings = {
         dots: true,
+        fade: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -54,7 +60,7 @@ function Project() {
     return(
         <>
         <div className="container relative z-2 mt-[6.69rem]" id="projects">
-        <h2 className={`text-sm md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Our works and <span className='heading-span'>Projects</span></h2>            
+        <h2 className={`text-[24px] md:max-w-sm md:text-[32px] lg:max-w-2xl lg:text-[40px] max-w-[50rem] mx-11 mb-12 lg:mb-20`}>Our works and <span className='heading-span'>Projects</span></h2>            
             <div className="w-full m-auto">
             <div className="mt-20">
                 <Slider {...settings}>
@@ -83,29 +89,36 @@ const data = [
     {
         id:0,
         skill: "Front-end development",
-        img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: s1,
         description: "I code beautiful web experiences and have a good grip over various front-end technologies",
         path:"/FrontendWork"
     }, 
     {
         id:1,
         skill: "Open-source contribution",
-        img:"https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img:s2,
         description: "I contributed to various open source projects",
         path:"https://github.com/shivani-tripurari"
     },
     {
         id:2,
         skill: "Freelancing",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: s3,
         description: "Worked on some freelance projects related to front-end and fullstack development",
         path:"https://www.linkedin.com/in/shivani-tripurari-a7962621b/"
     },
     {
         id:3,
         skill: "UI/UX designing",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: s4,
         description: "I have a good understanding of designing principles ",
         path:"/UiWork"
     },
+    {
+      id:4,
+      skill: "UI/UX designing",
+      img: s5,
+      description: "I have a good understanding of designing principles ",
+      path:"/UiWork"
+  }
 ];
