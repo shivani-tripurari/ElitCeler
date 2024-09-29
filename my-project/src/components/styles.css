@@ -100,3 +100,11 @@ h3{
     position: absolute;
     bottom: 21%;
 }
+
+
+.marquee-bg{
+    /* background: rgba(209, 207, 207, 0.042); */
+    background: rgb(3,5,35);
+    background: linear-gradient(90deg, rgba(3,5,35,0.09209931531206228) 0%, rgba(3,5,35,0.25456430130646013) 100%);
+    margin-top: 1rem;
+}

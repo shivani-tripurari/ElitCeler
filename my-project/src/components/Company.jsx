@@ -1,6 +1,9 @@
 // import yourlogo from "../assets/yourlogo.svg";
+import React from "react";
+import Marquee from "react-fast-marquee";
+// import styled,{keyframes,css} from "styled-components";
 import startup from "../assets/18startup.svg";
-import CRC from "../assets/CRC.svg";
+// import CRC from "../assets/CRC.svg";
 import group from "../assets/Group.svg";
 import health from "../assets/Healthkare.svg";
 import HH from "../assets/HH.svg";
@@ -8,54 +11,69 @@ import kodeblue from "../assets/Kodeblue.svg";
 import Moksh from "../assets/Moksh.svg";
 import MyHome from "../assets/Myhome.svg";
 import PV from "../assets/PV.svg";
-const Company = ({className}) => {
+import './styles.css';
+
+const Company = () => {
+
+
+    // const row1 = [startup,group,health,HH,kodeblue];
+    // const row2 = [Moksh,MyHome,PV];
+
   return (
-    <div className={className}>
-      <h5 className="text-sm lg:text-lg ml-11 font-bold mb-6 text-left text-gray-200">Our Partners </h5>
-      <div className="flex flex-col">
-          <div>
-          <ul className="flex items-center justify-center flex-1 h-[7.5rem] m-2">
-        
-        <li>
-            <img src={startup} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={CRC} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={health} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={group} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={HH} height={28} width={134} className="m-4"/> 
-        </li>
-        </ul>
-          </div>
-          <div>
-          <ul className="flex items-center justify-center flex-1 h-[6.5rem] m-2">
-        
-        <li>
-            <img src={kodeblue} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={Moksh} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={MyHome} height={28} width={134} className="m-4"/> 
-        </li>
-        <li>
-            <img src={PV} height={28} width={134} className="m-4"/> 
-        </li>
-        {/* <li>
-            <img src={yourlogo} height={28} width={134} className="m-4"/> 
-        </li> */}
-        </ul>
-          </div>
-      </div>
-    </div>
+    <>
+        <h2 className={`text-[16px] mr-24 w-[35%] md:text-[24px] md-custom:text-[20px] lg:text-[24px] font-semibold mt-36 md-custom:mr-[28rem] md:mr-96 lg:mr-[56rem]`}>Our partners</h2>
+        <div className="marquee-bg">
+        <Marquee  
+            pauseOnHover={true}
+            // gradient={true} // Enables the gradient effect
+            // gradientColor={[0, 0, 0]} // Sets the gradient color (RGB format)
+            // gradientWidth={700}
+            >
+            <img className="ml-7 mr-7 mt-4"
+                src={startup}
+                height={20}
+                width={144}
+                
+            />
+            <img className="ml-1 mr-1 mt-4"
+            src={group}
+            height={36}
+                width={164}
+            />
+            <img className="ml-7 mr-7 mt-4"
+             src={health}
+             height={20}
+                width={144}
+             />
+            <img className="ml-7 mr-7 mt-4"
+            src={HH}
+            height={20}
+                width={144}
+            />
+            <img className="ml-7 mr-7 mt-4"
+            src={kodeblue}
+            height={28}
+                width={164}
+            />
+            <img className="ml-7 mr-7 mt-4"
+            src={Moksh}
+            height={12}
+                width={96}
+            />
+            <img className="ml-7 mr-7 mt-4"
+             src={MyHome}
+             height={12}
+                width={96}/>
+            <img className="ml-7 mr-7 mt-4"
+            src={PV}
+            height={16}
+                width={100}
+            />
+        </Marquee>
+        </div>
+    </>
   )
 }
 
-export default Company
+export default Company;
+

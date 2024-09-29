@@ -19,6 +19,7 @@ import seo from '../assets/seo.png';
 import webdes from '../assets/webdes.png';
 import blog1 from '../assets/blog1.png';
 import blog2 from '../assets/blog2.png';
+import Sharvani from '../assets/Sharvani.jpeg';
 
 
 export const benefits = [
@@ -134,10 +135,10 @@ export const teamMembers = [
   },
   {
     id:"13",
-    title:"Sharvani",
-    //imgUrl: ,
+    title:"Sharvani Nalla",
+    imgUrl: Sharvani,
     post:"UI/UX designer",
-    linkedin:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all",
+    linkedin:"http://www.linkedin.com/in/sharvaninalla",
     mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   // {
