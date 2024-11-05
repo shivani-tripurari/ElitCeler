@@ -11,7 +11,7 @@ import image7 from '../assets/navyaSri.jpg';
 import image8 from '../assets/navyaSri.jpg';
 import image9 from '../assets/shivani.jpeg';
 import image10 from '../assets/navyaSri.jpg';
-import image11 from '../assets/saumya.jpg';
+// import image11 from '../assets/sam.jpg';
 import image12 from '../assets/navyaSri.jpg';
 import image13 from '../assets/shaik.jpeg';
 import image14 from '../assets/Priyanshi.jpeg';
@@ -20,7 +20,7 @@ import webdes from '../assets/webdes.png';
 import blog1 from '../assets/blog1.png';
 import blog2 from '../assets/blog2.png';
 import Sharvani from '../assets/Sharvani.jpeg';
-
+import Samyuktha from '../assets/Samyukthaa.jpg';
 
 export const benefits = [
   {
@@ -135,10 +135,10 @@ export const teamMembers = [
   },
   {
     id:"13",
-    title:"Sharvani Nalla",
-    imgUrl: Sharvani,
-    post:"UI/UX designer",
-    linkedin:"http://www.linkedin.com/in/sharvaninalla",
+    title:"Samyuktha Pabolu",
+    imgUrl: Samyuktha,
+    post:"Head of Product Design",
+    linkedin:"https://www.linkedin.com/in/samyuktha-pabolu-988334220/",
     mail:"https://www.linkedin.com/company/elitceler-technologies-pvt-ltd/posts/?feedView=all"
   },
   // {
@@ -149,14 +149,14 @@ export const teamMembers = [
   //   linkedin:"https://buymeacoffee.com/shivaniiii",
   //   mail:"https://buymeacoffee.com/shivaniiii"
   // },
-  {
-    id:"7",
-    title:"Tripurari Shivani",
-    imgUrl: image9,
-    post:"Frontend, UX Intern",
-    linkedin:"https://buymeacoffee.com/shivaniiii",
-    mail:"https://buymeacoffee.com/shivaniiii"
-  },
+  // {
+  //   id:"7",
+  //   title:"Tripurari Shivani",
+  //   imgUrl: image9,
+  //   post:"Frontend, UX Intern",
+  //   linkedin:"https://buymeacoffee.com/shivaniiii",
+  //   mail:"https://buymeacoffee.com/shivaniiii"
+  // },
  /* {
     id:"10",
     title:"Saumya",
@@ -165,6 +165,14 @@ export const teamMembers = [
     linkedin:"https://buymeacoffee.com/shivaniiii",
     mail:"https://buymeacoffee.com/shivaniiii"
   }, */
+  //  {
+  //   id:"10",
+  //   title:"Samyuktha Pabolu",
+  //   imgUrl: image11,
+  //   post:"Head of Product Design",
+  //   linkedin:"https://www.linkedin.com/in/samyuktha-pabolu-988334220/",
+  //   mail:"https://www.linkedin.com/in/samyuktha-pabolu-988334220/"
+  // }, 
   {
     id:"11",
     title:"Nagateja V",
